@@ -78,20 +78,6 @@ The high classification accuracy demonstrates that **kernel event characteristic
 
 By accurately classifying the workload at any given moment, the system gains the necessary information to make a well-informed prediction for the optimal `readahead` value, which is crucial for maximizing I/O performance in complex Linux systems. This model serves as a proof-of-concept for a potential dynamic `readahead` policy implemented within the kernel.
 
-## 📁 Repository Structure
-
-```
-.
-├── 8.cpp                    # Conceptual C++ code for LTTng C-API usage (data extraction from trace).
-├── ml.py                    # Python script containing the ANN model and all ML training/evaluation.
-├── OSLabProject.ipynb       # Jupyter Notebook version of the ML analysis and visualization.
-├── OsLabProject.pdf         # Final project report (in Persian).
-├── script.py                # Python script for initial parsing of raw LTTng trace files.
-├── readrandom.txt           # Raw LTTng trace data for 'readrandom' workload.
-├── readreverse.txt          # Raw LTTng trace data for 'readreverse' workload.
-└── readseq.txt              # Raw LTTng trace data for 'readseq' workload.
-```
-
 ## 🧑‍🤝‍🧑 Contributors
 
   * [Mahdis Sepahvand]
