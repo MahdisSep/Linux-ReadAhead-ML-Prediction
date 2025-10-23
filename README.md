@@ -72,6 +72,17 @@ A **Sequential Artificial Neural Network (ANN)** was implemented using TensorFlo
 | **Accuracy** | **0.9626** |
 | **F1-Score (Macro Avg)** | **0.9625** |
 
+## results 
+
+![images](https://github.com/MahdisSep/Linux-ReadAhead-ML-Prediction/blob/main/results/results1.png)
+![images](https://github.com/MahdisSep/Linux-ReadAhead-ML-Prediction/blob/main/results/results2.png)
+![images](https://github.com/MahdisSep/Linux-ReadAhead-ML-Prediction/blob/main/results/results3.png)
+![images](https://github.com/MahdisSep/Linux-ReadAhead-ML-Prediction/blob/main/results/results4.png)
+![images](https://github.com/MahdisSep/Linux-ReadAhead-ML-Prediction/blob/main/results/results5.png)
+![images](https://github.com/MahdisSep/Linux-ReadAhead-ML-Prediction/blob/main/results/results6.png)
+
+-----
+
 ## 💡 Key Findings and Conclusion
 
 The high classification accuracy demonstrates that **kernel event characteristics, specifically the combination of `flags`, `transaction` rate, and `cumulative time`, are highly effective predictors of the underlying I/O workload**.
